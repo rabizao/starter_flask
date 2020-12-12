@@ -1,5 +1,7 @@
 # README!
 
+This project is a starting flask API application that has already implemented API auto documentation with swagger/redocs, data validation with marshmallow and flask-smorest, db connections using sqlalchemy and logging handlers that centralize all logs and send emails to admins when bugs are faced by the users.
+
 Install
 -------
 
@@ -14,10 +16,12 @@ Use
 
 Start the API:
 ---
+
     source venv/bin/activate
     cd backend/
     flask run
 
 Access documentation:
 ---
+
     http://localhost:5000/docs or http://localhost:5000/docs/swagger
